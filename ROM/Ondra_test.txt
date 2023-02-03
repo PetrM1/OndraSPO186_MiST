@@ -1,0 +1,28 @@
+https://sites.google.com/site/ondraspo186
+
+Zdravi Vas ONDRA
+
+Program na test funkcnosti pocitaca Ondra
+verzia 2
+
+Test prebieha v tychto krokoch:
+1. Test obrazovky posunom bielo-ciernych pruhov
+2. Test zvukoveho vystupu - zahra vsetky tri zakladne tony
+3. Test LED a relatka
+4. Dump 0-4000h cez seriovu linku (57600Bd)
+5. Test jedneho bajtu pamate RAM (55AAh)
+- zapis a citanie 00
+- zapis a citanie FF
+po precitani su zvukovo odvysielane jednolive bity, pocinajuc bitom 0
+- nizky ton - bit je spravny
+- vysoky ton - bit je chybne nacitany
+6. Zaplnenie RAM 5000-9000h hodnotou 00h a dump cez seriovu linku
+7. Zaplnenie RAM 5000-9000h hodnotou FFh a dump cez seriovu linku
+8. Test klavesnice - caka pocas pipania na stlacenie medzery
+
+Test je mozne spustit napalenim do EPROM a vlozenim do pocitaca,
+alebo cez seriovu linku.
+
+Zelam uspech pri oziveni Vasho pocitaca Ondra!
+
+Kontak je na horeuvedenej stranke.
